@@ -15,14 +15,14 @@
 #
 
 # Device path
-LOCAL_PATH := device/lenovo/A7010a48
+LOCAL_PATH := device/lenovo/k5fpr
 
 # Device board elements
 include $(LOCAL_PATH)/PlatformConfig.mk
 include $(LOCAL_PATH)/board/*.mk
 
 # Device vendor board
--include vendor/lenovo/A7010a48/BoardConfigVendor.mk
+-include vendor/lenovo/k5fpr/BoardConfigVendor.mk
 
 #######################################################################
 
