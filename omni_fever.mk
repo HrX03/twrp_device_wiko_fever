@@ -25,23 +25,23 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 
 # Inherit device configuration
-$(call inherit-product, $(LOCAL_PATH)/device_k5fpr.mk)
+$(call inherit-product, $(LOCAL_PATH)/device_fever.mk)
 
 # Device display
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 
 # Device identifier
-PRODUCT_DEVICE := k5fpr
-PRODUCT_NAME := omni_k5fpr
-PRODUCT_BRAND := lenovo
-PRODUCT_MODEL := Lenovo A7010a48
-PRODUCT_MANUFACTURER := LENOVO
-PRODUCT_RELEASE_NAME := k5fpr
+PRODUCT_DEVICE := fever
+PRODUCT_NAME := omni_fever
+PRODUCT_BRAND := wiko
+PRODUCT_MODEL := Wiko l5460
+PRODUCT_MANUFACTURER := WIKO
+PRODUCT_RELEASE_NAME := fever
 
 # TWRP.fstab
 PRODUCT_COPY_FILES += \
-    device/lenovo/k5fpr/prebuilts/kernel:kernel \
+    device/wiko/fever/prebuilts/kernel:kernel \
     $(LOCAL_PATH)/twrp.fstab:recovery/root/etc/recovery.fstab
 
 # Time Zone data for Recovery

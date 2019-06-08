@@ -36,4 +36,4 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Vendor product configurations
-$(call inherit-product-if-exists, vendor/lenovo/k5fpr/k5fpr-vendor.mk)
+$(call inherit-product-if-exists, vendor/wiko/fever/fever-vendor.mk)

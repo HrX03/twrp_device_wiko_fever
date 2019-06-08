@@ -15,14 +15,14 @@
 #
 
 # Device path
-LOCAL_PATH := device/lenovo/k5fpr
+LOCAL_PATH := device/wiko/fever
 
 # Device board elements
 include $(LOCAL_PATH)/PlatformConfig.mk
 include $(LOCAL_PATH)/board/*.mk
 
 # Device vendor board
--include vendor/lenovo/k5fpr/BoardConfigVendor.mk
+-include vendor/wiko/fever/BoardConfigVendor.mk
 
 #######################################################################
 

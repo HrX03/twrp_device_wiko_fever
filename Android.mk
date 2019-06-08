@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),k5fpr)
+ifeq ($(TARGET_DEVICE),fever)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
